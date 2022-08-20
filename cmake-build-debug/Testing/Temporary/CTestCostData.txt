@@ -1,0 +1,7 @@
+FibWithCacheTest.FibCalculateDriverTest 2 0.00118202
+FibTest.FibDynamicTest 6 0.000440104
+FibTest.FibLoopTest 5 0.000506367
+FibTest.FibUlimateTest 4 0.000696479
+BinomialTest.BinomialCoefficientTest 1 0.00290638
+StringsTest.StringEditCostTest 1 0.00252879
+---

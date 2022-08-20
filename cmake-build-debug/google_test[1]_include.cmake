@@ -1,0 +1,5 @@
+if(EXISTS "/Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/google_test[1]_tests.cmake")
+  include("/Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/google_test[1]_tests.cmake")
+else()
+  add_test(google_test_NOT_BUILT google_test_NOT_BUILT)
+endif()

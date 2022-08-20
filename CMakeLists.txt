@@ -16,6 +16,8 @@ set(SRC_LIST
         src/fib/fib_dynamic.cpp
         src/binomial/binomial.cpp
         src/strings/string_edit_cost.cpp
+        src/leetcode/duplicate_zeros.cpp
+        src/leetcode/squares_of_a_sorted_array.cpp
         )
 
 add_executable(${PROJECT_NAME} ${SRC_LIST} main.cpp)
@@ -27,7 +29,7 @@ set(SRC_TESTS
         test/binomial/binomial_test.cpp
         test/strings/string_edit_cost_test.cpp
         test/main.cpp
-        src/leetcode/squares_of_a_sorted_array.cpp src/leetcode/squares_of_a_sorted_array.h)
+        )
 
 add_executable(
         google_test

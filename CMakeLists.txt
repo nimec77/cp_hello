@@ -18,6 +18,8 @@ set(SRC_LIST
         src/strings/string_edit_cost.cpp
         src/leetcode/duplicate_zeros.cpp
         src/leetcode/squares_of_a_sorted_array.cpp
+        src/leetcode/valid_mountain_array.cpp
+        src/leetcode/linked_list_cycle.cpp
         )
 
 add_executable(${PROJECT_NAME} ${SRC_LIST} main.cpp)

@@ -81,6 +81,20 @@ build CMakeFiles/cp_hello.dir/src/leetcode/squares_of_a_sorted_array.cpp.o: CXX_
   OBJECT_DIR = CMakeFiles/cp_hello.dir
   OBJECT_FILE_DIR = CMakeFiles/cp_hello.dir/src/leetcode
 
+build CMakeFiles/cp_hello.dir/src/leetcode/valid_mountain_array.cpp.o: CXX_COMPILER__cp_hello_Debug /Users/comrade77/CLionProjects/cp_hello/src/leetcode/valid_mountain_array.cpp || cmake_object_order_depends_target_cp_hello
+  DEP_FILE = CMakeFiles/cp_hello.dir/src/leetcode/valid_mountain_array.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/comrade77/CLionProjects/cp_hello/src
+  OBJECT_DIR = CMakeFiles/cp_hello.dir
+  OBJECT_FILE_DIR = CMakeFiles/cp_hello.dir/src/leetcode
+
+build CMakeFiles/cp_hello.dir/src/leetcode/linked_list_cycle.cpp.o: CXX_COMPILER__cp_hello_Debug /Users/comrade77/CLionProjects/cp_hello/src/leetcode/linked_list_cycle.cpp || cmake_object_order_depends_target_cp_hello
+  DEP_FILE = CMakeFiles/cp_hello.dir/src/leetcode/linked_list_cycle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/comrade77/CLionProjects/cp_hello/src
+  OBJECT_DIR = CMakeFiles/cp_hello.dir
+  OBJECT_FILE_DIR = CMakeFiles/cp_hello.dir/src/leetcode
+
 build CMakeFiles/cp_hello.dir/main.cpp.o: CXX_COMPILER__cp_hello_Debug /Users/comrade77/CLionProjects/cp_hello/main.cpp || cmake_object_order_depends_target_cp_hello
   DEP_FILE = CMakeFiles/cp_hello.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
@@ -96,7 +110,7 @@ build CMakeFiles/cp_hello.dir/main.cpp.o: CXX_COMPILER__cp_hello_Debug /Users/co
 #############################################
 # Link the executable cp_hello
 
-build cp_hello: CXX_EXECUTABLE_LINKER__cp_hello_Debug CMakeFiles/cp_hello.dir/src/fib/fib_dynamic.cpp.o CMakeFiles/cp_hello.dir/src/binomial/binomial.cpp.o CMakeFiles/cp_hello.dir/src/strings/string_edit_cost.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/duplicate_zeros.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/squares_of_a_sorted_array.cpp.o CMakeFiles/cp_hello.dir/main.cpp.o
+build cp_hello: CXX_EXECUTABLE_LINKER__cp_hello_Debug CMakeFiles/cp_hello.dir/src/fib/fib_dynamic.cpp.o CMakeFiles/cp_hello.dir/src/binomial/binomial.cpp.o CMakeFiles/cp_hello.dir/src/strings/string_edit_cost.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/duplicate_zeros.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/squares_of_a_sorted_array.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/valid_mountain_array.cpp.o CMakeFiles/cp_hello.dir/src/leetcode/linked_list_cycle.cpp.o CMakeFiles/cp_hello.dir/main.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/cp_hello.dir
   POST_BUILD = :
@@ -148,6 +162,20 @@ build CMakeFiles/google_test.dir/src/leetcode/squares_of_a_sorted_array.cpp.o: C
   OBJECT_DIR = CMakeFiles/google_test.dir
   OBJECT_FILE_DIR = CMakeFiles/google_test.dir/src/leetcode
 
+build CMakeFiles/google_test.dir/src/leetcode/valid_mountain_array.cpp.o: CXX_COMPILER__google_test_Debug /Users/comrade77/CLionProjects/cp_hello/src/leetcode/valid_mountain_array.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = CMakeFiles/google_test.dir/src/leetcode/valid_mountain_array.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/comrade77/CLionProjects/cp_hello/src -isystem /Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles/google_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/google_test.dir/src/leetcode
+
+build CMakeFiles/google_test.dir/src/leetcode/linked_list_cycle.cpp.o: CXX_COMPILER__google_test_Debug /Users/comrade77/CLionProjects/cp_hello/src/leetcode/linked_list_cycle.cpp || cmake_object_order_depends_target_google_test
+  DEP_FILE = CMakeFiles/google_test.dir/src/leetcode/linked_list_cycle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
+  INCLUDES = -I/Users/comrade77/CLionProjects/cp_hello/src -isystem /Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/comrade77/CLionProjects/cp_hello/cmake-build-debug/_deps/googletest-src/googletest
+  OBJECT_DIR = CMakeFiles/google_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/google_test.dir/src/leetcode
+
 build CMakeFiles/google_test.dir/test/fib/fib_dynamic_test.cpp.o: CXX_COMPILER__google_test_Debug /Users/comrade77/CLionProjects/cp_hello/test/fib/fib_dynamic_test.cpp || cmake_object_order_depends_target_google_test
   DEP_FILE = CMakeFiles/google_test.dir/test/fib/fib_dynamic_test.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++20
@@ -184,7 +212,7 @@ build CMakeFiles/google_test.dir/test/main.cpp.o: CXX_COMPILER__google_test_Debu
 #############################################
 # Link the executable google_test
 
-build google_test google_test[1]_tests.cmake | ${cmake_ninja_workdir}google_test[1]_tests.cmake: CXX_EXECUTABLE_LINKER__google_test_Debug CMakeFiles/google_test.dir/src/fib/fib_dynamic.cpp.o CMakeFiles/google_test.dir/src/binomial/binomial.cpp.o CMakeFiles/google_test.dir/src/strings/string_edit_cost.cpp.o CMakeFiles/google_test.dir/src/leetcode/duplicate_zeros.cpp.o CMakeFiles/google_test.dir/src/leetcode/squares_of_a_sorted_array.cpp.o CMakeFiles/google_test.dir/test/fib/fib_dynamic_test.cpp.o CMakeFiles/google_test.dir/test/binomial/binomial_test.cpp.o CMakeFiles/google_test.dir/test/strings/string_edit_cost_test.cpp.o CMakeFiles/google_test.dir/test/main.cpp.o | lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
+build google_test google_test[1]_tests.cmake | ${cmake_ninja_workdir}google_test[1]_tests.cmake: CXX_EXECUTABLE_LINKER__google_test_Debug CMakeFiles/google_test.dir/src/fib/fib_dynamic.cpp.o CMakeFiles/google_test.dir/src/binomial/binomial.cpp.o CMakeFiles/google_test.dir/src/strings/string_edit_cost.cpp.o CMakeFiles/google_test.dir/src/leetcode/duplicate_zeros.cpp.o CMakeFiles/google_test.dir/src/leetcode/squares_of_a_sorted_array.cpp.o CMakeFiles/google_test.dir/src/leetcode/valid_mountain_array.cpp.o CMakeFiles/google_test.dir/src/leetcode/linked_list_cycle.cpp.o CMakeFiles/google_test.dir/test/fib/fib_dynamic_test.cpp.o CMakeFiles/google_test.dir/test/binomial/binomial_test.cpp.o CMakeFiles/google_test.dir/test/strings/string_edit_cost_test.cpp.o CMakeFiles/google_test.dir/test/main.cpp.o | lib/libgtest_main.a lib/libgtest.a || lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = lib/libgtest_main.a  lib/libgtest.a
   OBJECT_DIR = CMakeFiles/google_test.dir
